@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const PORT = 3000;
 
-// Home route
+// Home 
 app.get('/', (req, res) => {
   res.send('Welcome to Express!');
 });
